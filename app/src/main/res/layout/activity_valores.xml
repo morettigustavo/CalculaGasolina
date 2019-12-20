@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/etGasolina"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Preço da Gasolina:"/>
+
+    <EditText
+        android:id="@+id/etAlcool"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Preço da Álcool:"/>
+
+    <EditText
+        android:id="@+id/etGasolinaLitro"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Kilometragem por litro da Gasolina:"/>
+
+    <EditText
+        android:id="@+id/etAlcoolLitro"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Kilometragem por litro do Álcool:"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="15sp"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:onClick="calcular"
+        android:background="#f0ff0f"/>
+</LinearLayout>
